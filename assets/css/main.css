@@ -300,6 +300,31 @@ h3 {
 }
 
 .pop-up-solid-state {
-	margin: 0 auto;
-	display: inline-block;
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
+
+/*.pop-up-solid-state {
+	float: left;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 25px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #242d44;
+}
+
+.pop-up-solid-state ul {
+	list-style: none;
+}
+
+.pop-up-solid-state ul li {
+	color: #ffffff;
+	padding-bottom: 3px;
+	font-size: 12px;
+	display:block;
+	padding-right: 10px;
+}
+*/
