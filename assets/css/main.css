@@ -1,10 +1,10 @@
 body {
-	background-color: #2e3141;
+/*	background-color: #2e3141;
 	background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url("../images/01_header_image.jpg");
 	background-size: auto, cover;
 	background-attachment: fixed, fixed;
 	background-position: center, center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 
@@ -14,19 +14,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner {
-		padding: 10em 0 4.75em 0 ;
-		/*background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url("../images/01_header_image.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;*/
-		height: 80vh;
-		color: #ffffff;
-		
-	}
-	#banner a {
-		color: #ffffff;
-	}
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../images/01_header_image.jpg);
+    background-size: auto, cover;
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+	padding: 10em 0 4.75em 0 ;
+	height: 80vh;
+	color: #ffffff;	
+}
+
+#banner a {
+	color: #ffffff;
+}
 
 .color-white {
 	color: white;
@@ -264,13 +264,12 @@ h3 {
 
 .navbar-solid-state {
 	background-color: transparent;
-	color: #ffffff;
-}
-
-.navbar-solid-state p {
-	color: transparent;
-	font-family: 'Istok Web', sans-serif;
-	font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    height: auto;
+    z-index: 1;
+    padding: 12px 0px;
+    width: 100%;
 }
 
 .navbar-btn-solid-state {
@@ -550,7 +549,25 @@ body.is-loading #banner p {
 	background-color: #ffffff;
 }
 
-.navbar-solid-state a {
+.a-menu {
 	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
 }
+.a-transparent,.a-transparent:hover,.a-transparent:focus {
+	color: transparent;
+	font-size: 26px;
+	padding-left: 15px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 700;
+}
+
+.a-menu:hover, .a-menu:focus {
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 >>>>>>> refs/remotes/origin/master
