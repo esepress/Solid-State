@@ -573,4 +573,6 @@ body.is-loading #banner p {
     text-transform: uppercase;
 }
 
->>>>>>> refs/remotes/origin/master
+#elements-page-wrapper {
+    background-color: #242d44;
+}
