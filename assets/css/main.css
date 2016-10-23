@@ -576,3 +576,34 @@ body.is-loading #banner p {
 #elements-page-wrapper {
     background-color: #242d44;
 }
+
+.elements-header {
+	background-image: url(../images/02_element_header.jpg);
+	height: 475px;
+    background-position-y: -300px;
+    background-position-x: -500px;
+    opacity: 0.5;
+}
+
+.header-design {
+	margin-top: 240px;
+	color: #ffffff;
+	opacity: 1;
+}
+
+.header-design h1 {
+	margin-bottom: 30px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 700;
+	font-size: 46px;
+}
+
+.header-design p {
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+}
+
+.opacity-effect {
+	opacity: 1;
+}
