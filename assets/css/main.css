@@ -607,3 +607,38 @@ body.is-loading #banner p {
 .opacity-effect {
 	opacity: 1;
 }
+
+.elements-one-design {
+	color: #ffffff;
+	margin-top: 275px;
+}
+
+.elements-one-design h1 {
+	margin-bottom: 25px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44.82px;
+}
+
+.elements-one-design p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 27px;
+}
+
+.elements-blockquote {
+	margin-top: 87.5px;
+	color: #ffffff;
+}
+
+.elements-blockquote h1 {
+	margin-top: 87px;
+}
+
+.elements-blockquote p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
