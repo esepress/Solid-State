@@ -129,6 +129,10 @@ textarea {
 	text-align: center;
 }
 
+.subtitle p {
+	padding: 5px 120px;
+}
+
 i.ion-ios-arrow-right {
     -moz-transition: background-color 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out;
@@ -163,23 +167,43 @@ p {
 }
 
 .btn-learn-more {
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 }
 
 #two .btn-learn-more, #four .btn-learn-more {
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 	color: #ffffff;
 	padding-left: 0px;
 }
 
 #three .btn-learn-more, #one .btn-learn-more {
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 	color: black;
 	font-size: 13px;
 	padding-right: 0px;
 }
 
 .btn-expand-all {
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 	background-color: #242d44;
 	border: 1px solid #ffffff;
 	margin-left: 15px;
@@ -192,16 +216,15 @@ p {
 }
 
 .btn-expand-all:hover, .btn-expand-all:focus {
-    background-color: #242d44;
+    background-color: #ffffff;
     border: 1px solid #ffffff;
     margin-left: 15px;
     border-radius: 20px;
-    color: #ffffff;
+    color: #242d44;
     font-family: 'Istok Web', sans-serif;
     font-weight: 700;
     padding: 5px 18px 5px 18px;
     margin-top: 85px;
-    font-size: 15px;
 }
 
 .four-full {
@@ -970,4 +993,13 @@ img.img-responsive {
 
 .footer-list i {
 	font-size: 20px;
+	margin-right: 10px;
+}
+
+.list-solid-state .list-inline {
+	margin-left: 13px;
+}
+
+#four {
+	margin-top: 250px;
 }
