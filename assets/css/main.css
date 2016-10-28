@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #banner {
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../images/01_header_image.jpg);
     background-size: auto, cover;
     background-attachment: fixed;
@@ -36,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-banner {
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 	background-color: transparent;
 	border: 1px solid #ffffff;
 	color: #ffffff;
@@ -63,14 +73,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .four-features{
 	background-color: #29344e;
-	margin: 15px;
 	border-radius: 8px;
+/*	margin: 30px 35px;*/
 }
+
+.four-features.four-features-left-bottom {
+    margin: 0 35px 30px 0;
+}
+
+.four-features.four-features-right-bottom {
+    margin: 0 0 30px 35px;
+}
+
+.four-features.four-features-left-top {
+    margin: 30px 35px 0 0;
+}
+
+.four-features.four-features-right-top {
+    margin: 30px 0 0 35px;
+}
+
 .four-features img{
 	border-radius: 8px 8px 0 0;
 }
 .four-features .features-content{
-	padding: 15px;
+	padding: 55px 35px;
 }
 
 .footer-features {
@@ -206,7 +233,6 @@ p {
     transition: all 0.4s ease-in-out;
 	background-color: #242d44;
 	border: 1px solid #ffffff;
-	margin-left: 15px;
 	border-radius: 20px;
 	color: #ffffff;
 	font-family: 'Istok Web', sans-serif;
@@ -218,7 +244,6 @@ p {
 .btn-expand-all:hover, .btn-expand-all:focus {
     background-color: #ffffff;
     border: 1px solid #ffffff;
-    margin-left: 15px;
     border-radius: 20px;
     color: #242d44;
     font-family: 'Istok Web', sans-serif;
@@ -266,7 +291,8 @@ h3 {
 }
 
 .four-features .features-content p {
-	margin-bottom: 33px;
+	margin-bottom: 32px;
+	font-size: 20px;
 }
 
 .footer-bottom p {
@@ -279,16 +305,6 @@ h3 {
 
 .footer-bottom {
 	margin: 56px 0 56px 0;
-}
-
-.list-bottom {
-	padding-bottom: 27px;
-	border-bottom: 1px solid #dfdfdf;
-}
-
-.list-top-bottom {
-	padding: 27px 0 27px 0;
-	border-bottom: 1px solid #dfdfdf;
 }
 
 .list-solid-state {
@@ -940,6 +956,7 @@ section.table h4 {
     height: auto;
     margin-bottom: 30px;
     background-color: #394050;
+    color: #ffffff;
 }
 
 .checkbox-inline, .radio-inline {
@@ -1002,4 +1019,32 @@ img.img-responsive {
 
 #four {
 	margin-top: 250px;
+}
+
+.button a {
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.contact-form a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+#four .subtitle p {
+	padding: 5px 170px;
+}
+
+.list-table {
+	display: table;
+}
+.list-table i {
+	display: table-cell;
+	padding-right: 10px;
+}
+
+#one, #three {
+	color: #333333;
 }
