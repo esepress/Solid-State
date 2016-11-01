@@ -2,9 +2,9 @@
 
 $(document).ready(function(){
   $(window).scroll(function() { // check if scroll event happened
-    if ($(document).scrollTop() > 450) { // check if user scrolled more than 450 from top of the browser window
+    if ($(document).scrollTop() > 250) { // check if user scrolled more than 450 from top of the browser window
       $(".navbar-solid-state").css({"background-color":"#242d44","color": "#ffffff"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-      $(".a-transparent").css({"background-color":"transparent","color": "#ffffff"});
+      $(".a-transparent").css({"background-color":"transparent","color": "transparent"});
     } else {
       $(".navbar-solid-state").css("background-color", "transparent"); // if not, change it back to transparent
       $(".a-transparent").css({"background-color":"transparent","color": "transparent"});
