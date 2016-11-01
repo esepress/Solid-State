@@ -1273,10 +1273,14 @@ textarea#message {
 		float: right;
 	}
 
+	#two .btn-learn-more {
+		padding-left: 15px;
+	}
+
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	    display: block;
 	    max-width: 100%;
 	    height: auto;
-	    margin: 0 auto;
+	    margin: 15px auto;
 	}
 }
