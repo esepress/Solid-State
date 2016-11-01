@@ -56,10 +56,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 18px 43px;
 }
 
-#one h2, #one p, #one a {
+#one h2, #one p {
 	text-align: right;
-	float: right;
 }
+
+ #one a {
+	float: right;
+ }
 
 #two {
 	background-color: #242d44;
@@ -170,13 +173,16 @@ textarea {
     background-color: transparent;
 }
 
-.one-features, .two-features, .three-features{
-	padding: 30px;
+.one-features, .two-features, .three-features {
+	padding: 50px 0;
 }
 
-#three h2, #three p, #three a{
-	float: right;
+#three h2, #three p {
 	text-align: right;
+}
+
+#three a {
+	float: right;
 }
 
 .four-top {
@@ -307,16 +313,18 @@ h3 {
 	font-size: 26px;
 }
 
+
 .section-heading .title h2 {
 	margin-bottom: 35px;
 }
 
-.section-highlight h2 {
-	margin-bottom: 67px;
+.section-highlight {
+	padding-top: 40px;
 }
 
-.section-details p {
-	margin-bottom: 57px;
+.section-details {
+	padding-top: 70px;
+	padding-bottom: 60px;
 }
 
 .four-features .features-content h3 {
@@ -1241,7 +1249,7 @@ textarea#message {
 
 @media (max-width: 500px) {
 	#banner h2 {
-	    font-size: 35px;
+	    font-size: 32px;
 	    margin-bottom: 37px;
 	}
 	#banner p {
@@ -1250,5 +1258,25 @@ textarea#message {
 	}
 	.btn-banner {
 	    padding: 12px 35px;
+	}
+
+	#banner {
+		padding: 6em 0 4.75em 0;
+	}
+}
+
+@media (max-width: 991px) {
+	#one h2, #three h2, #one p, #three p, #two h2, #two p {
+		text-align: center;
+	}
+	#one a, #three a {
+		float: right;
+	}
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	    display: block;
+	    max-width: 100%;
+	    height: auto;
+	    margin: 0 auto;
 	}
 }
