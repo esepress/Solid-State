@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: right;
 }
 
- #one a {
+ #one a, #three a {
 	float: right;
  }
 
@@ -179,10 +179,6 @@ textarea {
 
 #three h2, #three p {
 	text-align: right;
-}
-
-#three a {
-	float: right;
 }
 
 .four-top {
@@ -324,6 +320,10 @@ h3 {
 
 .section-details {
 	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.section-details p {
 	padding-bottom: 60px;
 }
 
@@ -667,6 +667,12 @@ body.is-loading #banner p {
     background-color: #242d44;
 }
 
+.elements-h1 {
+	font-family: 'Istok Web', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+}
+
 .elements-header {
 	background-image: url(../images/02_element_header.jpg);
 	height: 475px;
@@ -775,6 +781,7 @@ body.is-loading #banner p {
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 38px;
+	list-style-type: square;
 }
 
 .elements-list ol li {
@@ -782,10 +789,6 @@ body.is-loading #banner p {
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 38px;
-}
-
-.elements-list ul{
-	padding: 0;
 }
 
 .elements-list li i{
@@ -986,6 +989,10 @@ section.table h4 {
 
 .elements-icons a {
 	color: #ffffff;
+}
+
+.elements-icons a:hover {
+    color: lightsteelblue;
 }
 
 .contact-form {
@@ -1269,8 +1276,10 @@ textarea#message {
 	#one h2, #three h2, #one p, #three p, #two h2, #two p {
 		text-align: center;
 	}
-	#one a, #three a {
-		float: right;
+	#one a, #two a, #three a {
+		float: none;
+		display: block;
+		margin: 0 auto;
 	}
 
 	#two .btn-learn-more {
@@ -1283,4 +1292,42 @@ textarea#message {
 	    height: auto;
 	    margin: 15px auto;
 	}
+
+	.section-highlight {
+		padding-top: 20px;
+	}
+
+	.section-details {
+	    padding-top: 35px;
+	    padding-bottom: 30px;
+	}
+
+	.section-details p {
+	    padding-bottom: 30px;
+	}
+
+	.elements-icons {
+		padding-top: 65px;
+	}
+
+}
+
+.icon-facebook:hover {
+	color: #44619D
+}
+
+.icon-twitter:hover {
+	color: #33CCFF
+}
+
+.icon-linkedin:hover {
+	color: #1B86BD
+}
+
+.icon-aperture:hover {
+	color: #09F
+}
+
+.icon-rss:hover {
+	color: #DF632D
 }
