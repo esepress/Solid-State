@@ -7,6 +7,10 @@ body {
 	background-repeat: no-repeat;*/
 }
 
+* {
+	outline: none !important;
+}
+
 body {
 	color: #ffffff;
 }
@@ -199,7 +203,7 @@ i.ion-ios-arrow-right {
     -moz-transition: background-color 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
     border-radius: 50%;
     border: solid 1px #9f9f9f;
     display: inline-block;
@@ -229,22 +233,22 @@ p {
 }
 
 .btn-learn-more {
-	-webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 }
 
 #two .btn-learn-more, #four .btn-learn-more {
-	-webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 	color: #ffffff;
 	padding-left: 0px;
 }
@@ -258,6 +262,16 @@ p {
 	color: black;
 	font-size: 13px;
 	padding-right: 0px;
+}
+
+#three .btn-learn-more i.ion-ios-arrow-right:hover, #one .btn-learn-more i.ion-ios-arrow-right:hover {
+	background-color: #242d44;
+	color: #ffffff;
+}
+
+#two .btn-learn-more i.ion-ios-arrow-right:hover, #four .btn-learn-more i.ion-ios-arrow-right:hover {
+	background-color: #ffffff;
+	color: #242d44;
 }
 
 .btn-expand-all {
@@ -357,7 +371,7 @@ h3 {
     position: fixed;
     height: auto;
     z-index: 1;
-    padding: 12px 0px;
+    padding: 26px 0px;
     width: 100%;
 }
 
@@ -376,16 +390,10 @@ h3 {
     color: #ffffff;
 }
 
-.btn-learn-more:hover, .btn-learn-more:focus {
-	font-size: 14px;
-}
-
-#three .btn-learn-more:hover, #one .btn-learn-more:hover, #three .btn-learn-more:focus, #one .btn-learn-more:focus {
-	font-size: 14px;
-}
 
 .btn-banner:hover {
-    font-size: 15px;
+    background-color: #52313f;
+    border: 1px solid #52313f;
 }
 
 .pop-up-solid-state {
@@ -658,9 +666,9 @@ body.is-loading #banner p {
 }
 
 .a-menu:hover, .a-menu:focus {
-    font-size: 15px;
     color: #ffffff;
     text-transform: uppercase;
+    opacity: 0.7;
 }
 
 #elements-page-wrapper {
