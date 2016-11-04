@@ -16,19 +16,19 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-    var $window = $(window),
+   var $window = $(window),
         $body = $('body'),
         $header = $('#header'),
         $banner = $('#banner');
 
-    // Disable animations/transitions until the page has loaded.
+    /* // Disable animations/transitions until the page has loaded.
       $body.addClass('is-loading');
 
       $window.on('load', function() {
         window.setTimeout(function() {
           $body.removeClass('is-loading');
         }, 100);
-      });
+      });*/
 
 
     // Menu.
@@ -130,4 +130,17 @@ $(document).ready(function(){
               $menu._hide();
 
         });
+});
+
+
+/*preloader*/
+
+jQuery(document).ready(function($) {  
+  $(window).load(function(){
+    var $body = $('body');
+    $('#preloader').fadeOut('slow',function(){
+      $(this).remove();
+    });
+    $('.body-content').fadeIn(2500);
+  });
 });
