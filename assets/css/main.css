@@ -596,7 +596,7 @@ body.is-menu-visible #menu .inner {
 
 /*=-=-=-==-  page loading  -=-==-=-==*/
 
-body.is-loading #banner .logo {
+/*body.is-loading #banner .logo {
 	-moz-transform: translateY(0.5em);
 	-webkit-transform: translateY(0.5em);
 	-ms-transform: translateY(0.5em);
@@ -626,7 +626,7 @@ body.is-loading #banner p {
 	-webkit-filter: blur(2px);
 	-ms-filter: blur(2px);
 	filter: blur(2px);
-}
+}*/
 
 #one {
 	background-color: #ffffff;
