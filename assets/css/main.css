@@ -538,8 +538,8 @@ body.is-menu-visible #menu .inner {
 	max-width: 100%;
 	opacity: 0;
 	position: relative;
-	width: 22em;
-	height: 365px;
+	width: 20em;
+	height: 350px;
 }
 
 #menu h2 {
@@ -716,7 +716,6 @@ body.is-loading #banner p {
 	margin-bottom: 25px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
-	font-size: 36px;
 	line-height: 44.82px;
 }
 
@@ -736,7 +735,6 @@ body.is-loading #banner p {
 	margin-bottom: 32px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
-	font-size: 36px;
 	line-height: 44.82px;
 
 }
@@ -759,7 +757,6 @@ body.is-loading #banner p {
 	margin-top: 85px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
-	font-size: 36px;
 	line-height: 44.82px;
 	margin-bottom: 50px;
 }
@@ -818,7 +815,6 @@ body.is-loading #banner p {
 	margin-bottom: 45px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
-	font-size: 36px;
 	line-height: 44.82px;
 }
 
@@ -839,7 +835,6 @@ body.is-loading #banner p {
 	margin-bottom: 45px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: 700;
-	font-size: 36px;
 	line-height: 44.82px;
 }
 
@@ -1149,6 +1144,18 @@ textarea#message {
 		font-size: 25px;
 	}
 
+	.elements-h {
+		font-size: 30px;
+	}
+
+	.header-design h1 {
+		font-size: 36px;
+	}
+
+	.header-design p {
+		font-size: 18px;
+	}
+
 
 	.four-top {
 		padding: 0;
@@ -1192,6 +1199,11 @@ textarea#message {
 		font-size: 17px;
 	}
 
+	.elements-h {
+		font-size: 21px;
+		line-height: 30px;
+	}
+
 	.btn-fit {
 		padding: 12px 35px;
 	}
@@ -1225,7 +1237,7 @@ textarea#message {
 	}
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-height: 415px) {
 	#menu .inner {
 	    padding: 2.5em 1.5em 0.5em 1.5em;
 	    -moz-transform: translateY(0.5em);
@@ -1244,7 +1256,30 @@ textarea#message {
 	    opacity: 0;
 	    position: relative;
 		width: 18em;
-		height: 300px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#menu .inner {
+	    padding: 2.5em 1.5em 0.5em 1.5em;
+	    -moz-transform: translateY(0.5em);
+	    -webkit-transform: translateY(0.5em);
+	    -ms-transform: translateY(0.5em);
+	    transform: translateY(0.5em);
+	    -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+	    -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+	    -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
+	    transition: opacity 0.35s ease, transform 0.35s ease;
+	    -webkit-overflow-scrolling: touch;
+	    background: #4c5c96;
+	    border-radius: 5px;
+	    display: block;
+	    max-width: 100%;
+	    opacity: 0;
+	    position: relative;
+		width: 16em;
+		height: 250px;
 	}
 }
 
@@ -1330,6 +1365,12 @@ textarea#message {
 
 	#four {
 		padding-top: 50px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.list-table p {
+		width: 450px;
 	}
 }
 
